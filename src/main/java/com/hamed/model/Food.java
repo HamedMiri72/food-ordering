@@ -31,7 +31,7 @@ public class Food {
     @Column(length = 1000)
     private List<String> images;
 
-    private Boolean available;
+    private boolean available;
 
     @ManyToOne
     private Restaurant restaurant;
